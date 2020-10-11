@@ -23,7 +23,7 @@ def testwifi(ifaces, ssidname, password):
     else:
         print("False")
         return False
-wifiname="CMCC-vZmZ"
+wifiname="HUAWEI P10 Plus"
 files = open(r"password-8位数字.txt", 'r')
 while True:
     password = files.readline()
